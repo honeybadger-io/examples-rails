@@ -1,0 +1,12 @@
+{
+  "name": "Honeybadger Example",
+  "description": "A barebones Rails app that generates errors and reports them to Honeybadger.io",
+  "repository": "https://github.com/honeybadger-io/examples-rails",
+  "logo": "https://www.honeybadger.io/images/logo.jpg",
+  "keywords": [ "ruby", "rails", "errors", "exceptions", "honeybadger" ],
+  "addons": [ "honeybadger" ],
+  "env": {
+    "RAILS_ENV": "production",
+    "SECRET_KEY_BASE": "changeme"
+  }
+}
