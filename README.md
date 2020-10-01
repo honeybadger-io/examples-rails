@@ -1,4 +1,5 @@
-# Honeybadger Test Rails App
+# Honeybadger's Example Rails App
+![Ruby](https://github.com/honeybadger-io/examples-rails/workflows/Ruby/badge.svg)
 
 Welcome to a simple Rails application that allows you to test the
 [Honeybadger](https://www.honeybadger.io) exception and application
