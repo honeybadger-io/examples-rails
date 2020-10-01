@@ -6,7 +6,7 @@ ruby "2.7.1"
 gem "rails", "~> 6.0.3"
 gem "puma", "~> 5.0"
 gem "sass-rails", ">= 6"
-gem "webpacker", "~> 4.0"
+gem "webpacker", "~> 5.2"
 gem "turbolinks", "~> 5"
 gem "bootsnap", ">= 1.4.2", require: false
 
