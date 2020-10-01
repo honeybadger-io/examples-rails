@@ -25,8 +25,11 @@ If you'd like to do it the old fashioned way, follow these steps:
 4. Run `bundle` to get the necessary gems installed
 5. Run the app in production (errors in development aren't reported by
    default):
-`SECRET_KEY_BASE=foo RAILS_ENV=production
-HONEYBADGER_API_KEY=your_api_key_here rails s`
+   ```sh
+    RAILS_ENV=production \
+    HONEYBADGER_API_KEY=your_api_key_here \
+    rails server
+    ```
 
 ## Trying It Out
 
@@ -34,7 +37,7 @@ Once you have the app running, either on Heroku or on your local
 machine, browse to the running Rails app.  When you click on the first
 link, an error will be triggered and reported to Honeybadger.  Check
 your email for a message from Honeybadger with a link to the error you
-just recorded. 
+just recorded.
 
 ## Error Context
 
