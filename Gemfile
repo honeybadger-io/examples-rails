@@ -27,6 +27,6 @@ end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "faker", "~> 2.11"
+gem "faker", "~> 2.14"
 gem "honeybadger", "~> 4.6"
 gem "standard", "~> 0.4.1"
